@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFE3D7"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/appTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="ANIMALS QUIZ"
+        android:textColor="#FF5722"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.2"/>
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cv_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:background="#FFFFFF"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="5dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/hypeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Let's Get Wild"
+        android:textColor="#FF5722"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+<TextView
+    android:id="@+id/descTV"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_marginTop="16dp"
+    android:text="Put your thinking cap on"
+    android:textColor="#7A8089"
+    android:textSize="16sp" />
+
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/til_name"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/usernameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionGo"
+        android:hint="Input a username"
+        android:inputType="textCapWords"
+        android:textColor="#363A43"
+        android:textColorHint="#7A8089" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<Button
+    android:id="@+id/beginBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:letterSpacing="0.2"
+    android:text="Begin"
+    android:background="#FF5722"
+    android:textColor="#FFFFFF"
+    android:textSize="18sp" />
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
