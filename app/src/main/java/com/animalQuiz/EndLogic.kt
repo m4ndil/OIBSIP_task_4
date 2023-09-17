@@ -12,7 +12,7 @@ class EndLogic : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        // Hide the status bar.
+//         Hide the status bar.
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
         // Get user name from intent and set it to the TextView.
@@ -25,8 +25,14 @@ class EndLogic : AppCompatActivity() {
         resultTV.text = "Score: $rightAns/$totalQues."
 
         // Add a click listener to the finish button to return to the main activity.
-        redoBtn.setOnClickListener {
+        homeBtn.setOnClickListener {
             startActivity(Intent(this@EndLogic, MainActivity::class.java))
+        }
+
+        redoBtn.setOnClickListener{
+            val intent = Intent(this@EndLogic, LogicQuestion::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

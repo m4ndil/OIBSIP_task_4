@@ -52,6 +52,18 @@
         tools:text="Score: 9/10" />
 
     <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#FF5722"
+        android:letterSpacing="0.2"
+        android:text="TITLE SCREEN"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
         android:id="@+id/redoBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

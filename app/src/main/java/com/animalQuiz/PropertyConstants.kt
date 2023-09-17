@@ -54,51 +54,6 @@ object PropertyConstants {
         )
         questionsList.add(fifthQuestion)
 
-        // Question 6
-        val sixthQuestion = PropertyQuestion(
-            6, "What is the largest species of land turtle?",
-            R.drawable.tortoise,
-            listOf("Red-Eared Slider", "Galapagos Tortoise", "Aldabra Giant Tortoise", "Box Turtle"),
-            rightAnswer = 2
-        )
-        questionsList.add(sixthQuestion)
-
-        // Question 7
-        val seventhQuestion = PropertyQuestion(
-            7, "What is the largest species of penguin?",
-            R.drawable.penguin,
-            listOf("Gentoo Penguin", "Humboldt Penguin", "Emperor Penguin", "African Penguin"),
-            rightAnswer = 3
-        )
-        questionsList.add(seventhQuestion)
-
-        // Question 8
-        val eighthQuestion = PropertyQuestion(
-            8, "Which marine animal is capable of regenerating its limbs?",
-            R.drawable.starfish,
-            listOf("Sea Urchin", "Starfish", "Jellyfish", "Octopus"),
-            rightAnswer = 2
-        )
-        questionsList.add(eighthQuestion)
-
-        // Question 9
-        val ninthQuestion = PropertyQuestion(
-            9, "Which big cat is known for its distinctive black spots?",
-            R.drawable.leopard,
-            listOf("Leopard", "Cheetah", "Lion", "Jaguar"),
-            rightAnswer = 1
-        )
-        questionsList.add(ninthQuestion)
-
-        // Question 10
-        val tentQuestion = PropertyQuestion(
-            10, "Which bird is known for its long, curved bill and is often associated with tropical regions?",
-            R.drawable.toucan,
-            listOf("Penguin", "Eagle", "Parrot", "Toucan"),
-            rightAnswer = 4
-        )
-        questionsList.add(tentQuestion)
-
         return questionsList
     }
 }

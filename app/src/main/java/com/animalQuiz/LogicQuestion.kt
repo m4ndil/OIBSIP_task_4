@@ -101,7 +101,7 @@ class LogicQuestion : AppCompatActivity(), View.OnClickListener {
                     rightWrong(question.rightAnswer, R.drawable.green_option)
 
                     if (questionNumber == questionsList!!.size) {
-                        nxtBtn.text = "SUBMIT"
+                        nxtBtn.text = "CONFIRM"
                     } else {
                         nxtBtn.text = "NEXT"
                     }
