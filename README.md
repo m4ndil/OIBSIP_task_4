@@ -1,6 +1,6 @@
 # OIBSIP_task_4
 
-# Quiz App
+# Title: Quiz App
 
 Welcome to the Quiz App! This Android application provides users with a fun and engaging way to test their general knowledge.
 
